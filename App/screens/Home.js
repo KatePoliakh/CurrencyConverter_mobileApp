@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, StatusBar, Image, Dimensions} from 'react-native';
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import colours from "../constants/colours";
-
+import { ConversionInput } from "../components/ConversionInput";
 const screen = Dimensions.get('window');
 
 const styles = StyleSheet.create({
@@ -42,6 +42,19 @@ export default () => {
                 resizeMode="contain"
                 />
             </View>
+            <ConversionInput
+            text="USD"
+            value="123"
+            onButtonPress={() => alert("todo!")}
+            keyboardType="numeric"
+            onChangeText={text => console.log("text", text)}
+            />
+            <ConversionInput
+            text="GBP"
+            value="123"
+            onButtonPress={() => alert("todo!")}
+            editable={false}
+            />
         </View>
     );
 };
