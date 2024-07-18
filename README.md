@@ -10,16 +10,16 @@ A React Native application for converting currency using real-time exchange rate
 ## Screenshots
 
 ### Main Screen
-![Main Screen](./assets/images/appScreenshots/mainScreen.jpg)
+![Main Screen](./App/assets/images/appScreenshots/mainScreen.jpg)
 
 ### Currency Choice Screen 1
-![Currency Choice Screen 1](./assets/images/appScreenshots/currencyChoiceScreen1.jpg)
+![Currency Choice Screen 1](./App/assets/images/appScreenshots/currencyChoiceScreen1.jpg)
 
 ### Currency Choice Screen 2
-![Currency Choice Screen 2](./assets/images/appScreenshots/currencyChoiceScreen2.jpg)
+![Currency Choice Screen 2](./App/assets/images/appScreenshots/currencyChoiceScreen2.jpg)
 
 ### Enter Value Screen
-![Enter Value Screen](./assets/images/appScreenshots/enterValue.jpg)
+![Enter Value Screen](./App/assets/images/appScreenshots/enterValue.jpg)
 
 ## Getting Started
 
@@ -115,8 +115,3 @@ CurrencyConverter_mobileApp/
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-
-
-
-```
