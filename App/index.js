@@ -1,13 +1,18 @@
-import React from 'react';
-//import Options from './screens/Options';
-import Home from './screens/Home';
+import React from "react"
+import Navigation from "./config/Navigation"
+import { ConversionContextProvider } from "./util/ConversionContext"
 
-export default () => <Home />;
+import { api } from "./util/api"
 
+api("/latest?base=USD")
+  .then(res => console.log(res))
+  .catch(err => console.log("err", err))
 
-
-
-
+export default () => (
+  <ConversionContextProvider>
+    <Navigation />
+  </ConversionContextProvider>
+)
 /*import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
